@@ -282,10 +282,10 @@ class Kuroshiro {
                     else { // furigana
                         for (let n5 = 0; n5 < notations.length; n5++) {
                             if (notations[n5][1] !== 1) {
-                                result += notations[n5][0];
+                                result += ['<div class="notation">',notations[n5][0],'</div>'].join('');
                             }
                             else {
-                                result += `<ruby>${notations[n5][0]}<rp>${options.delimiter_start}</rp><rt>${notations[n5][2]}</rt><rp>${options.delimiter_end}</rp></ruby>`;
+                                result += `<div class="notation"><ruby>${notations[n5][0]}<rp>${options.delimiter_start}</rp><rt>${notations[n5][2]}</rt><rp>${options.delimiter_end}</rp></ruby></div>`;
                             }
                         }
                     }
