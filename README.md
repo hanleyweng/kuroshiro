@@ -3,7 +3,7 @@ This is a fork of [hexenq/kuroshiro](https://github.com/hexenq/kuroshiro)
 
 To install a forked (npm) node module directly from github, use the following command:
 
-npm install https://github.com/<username>/<repository>/tarball/master
+`npm install https://github.com/\<username>/\<repository>/tarball/master`
 
 ---
 ---
