@@ -1,3 +1,9 @@
+# Note
+This is a fork of [hexenq/kuroshiro](https://github.com/hexenq/kuroshiro)
+
+---
+---
+---
 ![kuroshiro](https://kuroshiro.org/kuroshiro.png)
 
 # kuroshiro
