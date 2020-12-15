@@ -5,6 +5,8 @@ To install a forked (npm) node module directly from github, use the following co
 
 `npm install https://github.com/<username>/<repository>/tarball/master`
 
+`// 🟣 DEL INST. (Incomplete WIP)`
+
 ---
 ---
 ---
